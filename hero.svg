@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="hg-a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="hg-dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.05"/></pattern>
+    <style>
+      .pill{animation:pulse 2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+      .name{animation:rise .9s ease-out both}
+      @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+      .cur{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="898" height="258" rx="20" fill="#0d0e16" stroke="url(#hg-a)" stroke-opacity="0.6"/>
+  <rect x="1" y="1" width="898" height="258" rx="20" fill="url(#hg-dots)"/>
+  <circle cx="60" cy="48" r="5" fill="#22d3ee" class="pill"/>
+  <text x="76" y="53" fill="#22d3ee" font-size="14" font-family="Consolas,Menlo,monospace">open to collabs</text>
+  <text x="60" y="95" fill="#9ca3af" font-size="20" font-family="Consolas,Menlo,monospace">Hi there, I'm<tspan class="cur" fill="#a78bfa"> _</tspan></text>
+  <text x="60" y="160" fill="url(#hg-a)" font-size="64" font-weight="800" class="name">Mallikarjuna</text>
+  <g font-size="22" fill="#e5e7eb">
+    <text x="60" y="205">Full-stack developer
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28;0.33;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="205" opacity="0">.NET &amp; SQL Server engineer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.61;0.66;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="205" opacity="0">TypeScript &amp; Vue builder
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="60" y="236" fill="#6b7280" font-size="14" font-family="Consolas,Menlo,monospace">github.com/i-am-mallikarjuna</text>
+  <g transform="translate(740,130)" fill="none" stroke="url(#hg-a)" stroke-width="2">
+    <ellipse rx="80" ry="28"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="80" ry="28"><animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="16s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="80" ry="28"><animateTransform attributeName="transform" type="rotate" from="120" to="-240" dur="20s" repeatCount="indefinite"/></ellipse>
+    <circle r="12" fill="#a78bfa" stroke="none"><animate attributeName="r" values="10;14;10" dur="3s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
