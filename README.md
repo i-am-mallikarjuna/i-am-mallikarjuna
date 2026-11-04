@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="hero.svg?v=1" alt="Hi there, I'm Mallikarjuna" width="100%"/>
+  <img src="./hero.svg?v=2" alt="Hi there, I'm Mallikarjuna" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="stack.svg?v=1" alt="Tech stack" width="100%"/>
+  <img src="./stack.svg?v=2" alt="Tech stack" width="100%"/>
 </p>
 
 ## Projects
@@ -20,5 +20,5 @@
 ## Contribution city
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg?v=1" alt="3D contribution city" width="100%"/>
+  <img src="./profile-3d-contrib/profile-night-view.svg?v=2" alt="3D contribution city" width="100%"/>
 </p>
